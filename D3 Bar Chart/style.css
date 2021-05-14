@@ -1,0 +1,30 @@
+body{
+  background-color: grey;
+}
+
+.bar{
+  width: 3px;
+  fill: navy;
+}
+.bar:hover{
+  fill: white;
+}
+svg{
+  background-color: white;
+  margin-left: 10rem;
+  margin-top: 5rem;
+  padding: 2rem;
+}
+
+#tooltip{
+  width: 150px;
+  height: 40px;
+  padding: 10px;
+  background-color: #FFB74D;
+  color: black;
+  text-align: center;
+  visibility: hidden;
+  box-shadow: 3px 0px 24px 6px rgba(0,0,0,0.75);
+  opacity: 80%;
+  white-space: pre;
+}
