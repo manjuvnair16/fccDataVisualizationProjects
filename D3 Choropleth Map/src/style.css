@@ -1,0 +1,28 @@
+body{
+  text-align: center;
+}
+.counties {
+  fill: none;
+}
+.states{
+ 
+  fill: none;
+  stroke: #fff;
+  stroke-linejoin: round;
+
+}
+
+.counties{
+ fill: none
+}
+
+#tooltip{
+  visibility: hidden;
+  border-radius: 0.6rem;
+  position: absolute;
+  white-space: pre-line;
+  padding: 0.6rem;
+  background-color: black;
+  color: white;
+  font-size: 0.8rem;
+}
